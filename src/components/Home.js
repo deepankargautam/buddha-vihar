@@ -12,7 +12,7 @@ const Home = () => {
 
     return (
         <>
-   <div className="home-container" style={{ backgroundImage: 'url(/buddha-1.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+   <div className="home-container" style={{ backgroundImage: 'url(/buddha-1.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Box className="home-overlay" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '2rem', borderRadius: '8px', textAlign: 'center' }}>
             <Container>
                 <Typography variant="h3" component="h1" gutterBottom className="home-title" style={{ color: '#fff', fontWeight: 'bold' }}>
