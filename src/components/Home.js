@@ -45,42 +45,42 @@ const Home = () => {
             </div>
 
             <div className="info-section" style={{ padding: isSmallScreen ? '1rem' : '2rem' }}>
-                <Grid container spacing={4}>
-                    <Grid item xs={12} md={4}>
-                        <div className="info-card">
-                            <FavoriteIcon className="info-icon" />
-                            <Typography variant="h6" component="h3" className="info-title">
-                                Make Donation
-                            </Typography>
-                            <Typography variant="body1" component="p" className="info-description">
-                                Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
-                            </Typography>
-                        </div>
-                    </Grid>
-                    <Grid item xs={12} md={4}>
-                        <div className="info-card">
-                            <VolunteerActivismIcon className="info-icon" />
-                            <Typography variant="h6" component="h3" className="info-title">
-                                Become A Volunteer
-                            </Typography>
-                            <Typography variant="body1" component="p" className="info-description">
-                                Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
-                            </Typography>
-                        </div>
-                    </Grid>
-                    <Grid item xs={12} md={4}>
-                        <div className="info-card">
-                            <AttachMoneyIcon className="info-icon" />
-                            <Typography variant="h6" component="h3" className="info-title">
-                                Sponsorship
-                            </Typography>
-                            <Typography variant="body1" component="p" className="info-description">
-                                Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
-                            </Typography>
-                        </div>
-                    </Grid>
-                </Grid>
+    <Grid container spacing={4}>
+        <Grid item xs={12} md={4}>
+            <div className="info-card">
+                <FavoriteIcon className="info-icon" />
+                <Typography variant="h6" component="h3" className="info-title">
+                    Make a Donation
+                </Typography>
+                <Typography variant="body1" component="p" className="info-description">
+                    Your generosity can help build and maintain the Barampati Buddha Vihaar, providing a place for meditation, learning, and community gatherings.
+                </Typography>
             </div>
+        </Grid>
+        <Grid item xs={12} md={4}>
+            <div className="info-card">
+                <VolunteerActivismIcon className="info-icon" />
+                <Typography variant="h6" component="h3" className="info-title">
+                    Become a Volunteer
+                </Typography>
+                <Typography variant="body1" component="p" className="info-description">
+                    Join us in various activities such as organizing events, maintaining the Vihaar, and spreading the teachings of the Buddha.
+                </Typography>
+            </div>
+        </Grid>
+        <Grid item xs={12} md={4}>
+            <div className="info-card">
+                <AttachMoneyIcon className="info-icon" />
+                <Typography variant="h6" component="h3" className="info-title">
+                    Sponsorship
+                </Typography>
+                <Typography variant="body1" component="p" className="info-description">
+                    Support our initiatives by sponsoring meditation retreats, educational programs, and cultural events that promote peace and mindfulness.
+                </Typography>
+            </div>
+        </Grid>
+    </Grid>
+</div>
 
             <div className="causes-section" style={{ padding: isSmallScreen ? '1rem' : '2rem' }}>
                 <Container>
@@ -91,21 +91,28 @@ const Home = () => {
                         Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                     </Typography>
                     <Grid container spacing={4} className="causes-grid">
-                        <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={4}>
                             <div className="cause-card">
                                 <img src="/cause-1.jpg" alt="Cause" className="cause-image" />
                                 <div className="cause-content">
                                     <Typography variant="h6" component="h3" className="cause-title">
-                                        Clean water for the urban area
+                                        Social Welfare
                                     </Typography>
                                     <Typography variant="body2" component="p" className="cause-description">
-                                        Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.
+                                        Conducting all social activities for the welfare of humanity and the spread of Buddhism.
                                     </Typography>
-                                    <Typography variant="caption" component="p" className="cause-time">
-                                        Last donation 1hr ago
+                                </div>
+                            </div>
+                        </Grid>
+                        <Grid item xs={12} md={4}>
+                            <div className="cause-card">
+                                <img src="/cause-2.jpg" alt="Cause" className="cause-image" />
+                                <div className="cause-content">
+                                    <Typography variant="h6" component="h3" className="cause-title">
+                                        Support for Needy Children
                                     </Typography>
-                                    <Typography variant="body2" component="p" className="cause-raised">
-                                        $12,000 raised of $30,000
+                                    <Typography variant="body2" component="p" className="cause-description">
+                                        Arranging education, training, marriages, etc., for helpless boys and girls.
                                     </Typography>
                                 </div>
                             </div>
@@ -115,35 +122,10 @@ const Home = () => {
                                 <img src="/cause-3.jpg" alt="Cause" className="cause-image" />
                                 <div className="cause-content">
                                     <Typography variant="h6" component="h3" className="cause-title">
-                                        Clean water for the urban area
+                                        Cultural Festivals
                                     </Typography>
                                     <Typography variant="body2" component="p" className="cause-description">
-                                        Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.
-                                    </Typography>
-                                    <Typography variant="caption" component="p" className="cause-time">
-                                        Last donation 1hr ago
-                                    </Typography>
-                                    <Typography variant="body2" component="p" className="cause-raised">
-                                        $12,000 raised of $30,000
-                                    </Typography>
-                                </div>
-                            </div>
-                        </Grid>
-                        <Grid item xs={12} md={4}>
-                            <div className="cause-card">
-                                <img src="/cause-5.jpg" alt="Cause" className="cause-image" />
-                                <div className="cause-content">
-                                    <Typography variant="h6" component="h3" className="cause-title">
-                                        Clean water for the urban area
-                                    </Typography>
-                                    <Typography variant="body2" component="p" className="cause-description">
-                                        Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.
-                                    </Typography>
-                                    <Typography variant="caption" component="p" className="cause-time">
-                                        Last donation 1hr ago
-                                    </Typography>
-                                    <Typography variant="body2" component="p" className="cause-raised">
-                                        $12,000 raised of $30,000
+                                        Organizing cultural festivals, commemorations of great personalities, and other events for the promotion of Buddhism.
                                     </Typography>
                                 </div>
                             </div>
@@ -157,9 +139,9 @@ const Home = () => {
                     <Typography variant="h4" component="h2" gutterBottom className="donations-title">
                         LATEST DONATIONS
                     </Typography>
-                    <Typography variant="body1" component="p" className="donations-subtitle" sx={{ marginBottom: "30px" }}>
+                    {/* <Typography variant="body1" component="p" className="donations-subtitle" sx={{ marginBottom: "30px" }}>
                         Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                    </Typography>
+                    </Typography> */}
                     <Grid container spacing={4} className="donations-grid">
                         <Grid item xs={12} md={4} >
                             <div className="donation-card" style={{ boxShadow: "0px 3px 66px -24px rgba(0, 0, 0, 0.2)" }}>
@@ -203,82 +185,73 @@ const Home = () => {
                     </Grid>
                 </Container>
             </div>
-
             <div className="events-section" style={{ padding: isSmallScreen ? '1rem' : '2rem' }}>
-                <Container>
-                    <Typography variant="h4" component="h2" gutterBottom className="events-title">
-                        OUR LATEST EVENTS
-                    </Typography>
-                    <Grid container spacing={4} className="events-grid">
-                        <Grid item xs={12} md={4} >
-                            <div className="event-card">
-                                <img src={"/event-1.jpeg"} alt="Event" className="event-image" />
-                                <div className="event-content">
-                                    <Typography variant="caption" component="p" className="event-date">
-                                        Sep. 10, 2018   Admin   3
-                                    </Typography>
-                                    <Typography variant="h6" component="h3" className="event-title">
-                                        World Wide Donation
-                                    </Typography>
-                                    <Typography variant="body2" component="p" className="event-time">
-                                        10:30AM-03:30PM   Venue Main Campus
-                                    </Typography>
-                                    <Typography variant="body2" component="p" className="event-description">
-                                        A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                                    </Typography>
-                                    <Button variant="text" component={Link} to="/event-details" className="event-link">
-                                        Join Event
-                                    </Button>
-                                </div>
-                            </div>
-                        </Grid>
-                        <Grid item xs={12} md={4}>
-                            <div className="event-card">
-                                <img src={"/event-2.jpeg"} alt="Event" className="event-image" />
-                                <div className="event-content">
-                                    <Typography variant="caption" component="p" className="event-date">
-                                        Sep. 10, 2018   Admin   3
-                                    </Typography>
-                                    <Typography variant="h6" component="h3" className="event-title">
-                                        World Wide Donation
-                                    </Typography>
-                                    <Typography variant="body2" component="p" className="event-time">
-                                        10:30AM-03:30PM   Venue Main Campus
-                                    </Typography>
-                                    <Typography variant="body2" component="p" className="event-description">
-                                        A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                                    </Typography>
-                                    <Button variant="text" component={Link} to="/event-details" className="event-link">
-                                        Join Event
-                                    </Button>
-                                </div>
-                            </div>
-                        </Grid>
-                        <Grid item xs={12} md={4}>
-                            <div className="event-card">
-                                <img src={"/event-3.jpeg"} alt="Event" className="event-image" />
-                                <div className="event-content">
-                                    <Typography variant="caption" component="p" className="event-date">
-                                        Sep. 10, 2018   Admin 3
-                                    </Typography>
-                                    <Typography variant="h6" component="h3" className="event-title">
-                                        World Wide Donation
-                                    </Typography>
-                                    <Typography variant="body2" component="p" className="event-time">
-                                        10:30AM-03:30PM   Venue Main Campus
-                                    </Typography>
-                                    <Typography variant="body2" component="p" className="event-description">
-                                        A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                                    </Typography>
-                                    <Button variant="text" component={Link} to="/event-details" className="event-link">
-                                        Join Event
-                                    </Button>
-                                </div>
-                            </div>
-                        </Grid>
-                    </Grid>
-                </Container>
-            </div>
+    <Container>
+        <Typography variant="h4" component="h2" gutterBottom className="events-title">
+            OUR LATEST EVENTS
+        </Typography>
+        <Grid container spacing={4} className="events-grid">
+            <Grid item xs={12} md={4}>
+                <div className="event-card">
+                    <img src={"/event-1.jpeg"} alt="Event" className="event-image" />
+                    <div className="event-content">
+                        <Typography variant="caption" component="p" className="event-date">
+                            July. 3, 2023
+                        </Typography>
+                        <Typography variant="h6" component="h3" className="event-title">
+                            बरमपति बुद्ध विहार भूमि पूजन
+                        </Typography>
+                        <Typography variant="body2" component="p" className="event-time">
+                            10:30AM-03:30PM   Ratanmai Pratapgarh
+                        </Typography>
+                        <Typography variant="body2" component="p" className="event-description">
+                            Join us for the auspicious ground-breaking ceremony of the Barampati Buddha Vihaar.
+                        </Typography>
+                    </div>
+                </div>
+            </Grid>
+            <Grid item xs={12} md={4}>
+                <div className="event-card">
+                    <img src={"/event-3.PNG"} alt="Event" className="event-image" />
+                    <div className="event-content">
+                        <Typography variant="caption" component="p" className="event-date">
+                            July. 3, 2023
+                        </Typography>
+                        <Typography variant="h6" component="h3" className="event-title">
+                            शिला लेख अनावरण
+                        </Typography>
+                        <Typography variant="body2" component="p" className="event-time">
+                            10:30AM-03:30PM    Ratanmai Pratapgarh
+                        </Typography>
+                        <Typography variant="body2" component="p" className="event-description">
+                            Witness the unveiling of the commemorative stone plaque.
+                        </Typography>
+                    </div>
+                </div>
+            </Grid>
+            <Grid item xs={12} md={4}>
+                <div className="event-card">
+                    <img src={"/event-2.jpg"} alt="Event" className="event-image" />
+                    <div className="event-content">
+                        <Typography variant="caption" component="p" className="event-date">
+                            July. 3, 2023
+                        </Typography>
+                        <Typography variant="h6" component="h3" className="event-title">
+                            भिक्षु संघ देशना व दीक्षा
+                        </Typography>
+                        <Typography variant="body2" component="p" className="event-time">
+                            10:30AM-03:30PM    Ratanmai Pratapgarh
+                        </Typography>
+                        <Typography variant="body2" component="p" className="event-description">
+                            Participate in the monk's teachings and the ordination ceremony.
+                        </Typography>
+                    </div>
+                </div>
+            </Grid>
+        </Grid>
+    </Container>
+</div>
+
 
             <div className="volunteer-section" style={{ padding: isSmallScreen ? '1rem' : '2rem' }}>
                 <Container>

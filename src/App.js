@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Causes from './components/Causes';
-import Gallery from './components/Gallery';
+import GallaryPage from './components/GallaryPage';
 import Contact from './components/Contact';
 import Donate from './components/Donate';
 
@@ -20,7 +20,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/causes" element={<Causes />} />
-                    <Route path="/gallery" element={<Gallery />} />
+                    <Route path="/gallery" element={<GallaryPage />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/donate" element={<Donate />} />
                 </Routes>

@@ -87,7 +87,7 @@ const About = () => {
 
 const teamMembers = [
     {
-        name: 'दसरथराम',
+        name: 'B R Gautam',
         position: 'मुख्य ट्रस्टी',
         location: 'रतनमई, राजनिजाम, प्रतापगढ़',
         image: 'worker.png', // Update the path accordingly
@@ -99,7 +99,7 @@ const teamMembers = [
         image: 'worker.png', // Update the path accordingly
     },
     {
-        name: 'शीला गौतम',
+        name: 'Reena गौतम',
         position: 'कोषाध्यक्ष',
         location: 'रतनमई, राजनिजाम, प्रतापगढ़',
         image: 'worker.png', // Update the path accordingly
