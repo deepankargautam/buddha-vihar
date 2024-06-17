@@ -24,10 +24,10 @@ const Home = () => {
       <div
         className="home-container"
         style={{
-          backgroundImage: "url(/buddha-1.jpg)",
+          backgroundImage: "url(/buddha.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: isSmallScreen ? "50vh" : "70vh",
+          height: isSmallScreen ? "100vh" : "90vh",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -36,11 +36,11 @@ const Home = () => {
         <Box
           className="home-overlay"
           style={{
-            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            // backgroundColor: "rgba(0, 0, 0, 0.5)",
             padding: "2rem",
             borderRadius: "8px",
             textAlign: "center",
-            width: isSmallScreen ? "90%" : "auto",
+            width: isSmallScreen ? "100%" : "auto",
           }}
         >
           <Container>
@@ -65,7 +65,7 @@ const Home = () => {
               style={{ color: "#ddd", marginBottom: "2rem" }}
             >
               Your Contribution Can Make a Difference - Support the Tathagat
-              Mahavir Foundation Trust
+              Mahavihar Foundation Trust
             </Typography>
             <Button
               component={Link}
