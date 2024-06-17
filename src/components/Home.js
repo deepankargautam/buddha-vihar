@@ -37,7 +37,7 @@ const CarouselComponent = () => {
           style={{
             backgroundSize: "cover",
             backgroundPosition: "center",
-            height: isSmallScreen ? "100vh" : "90vh",
+            height: isSmallScreen ? "70vh" : "90vh",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -51,7 +51,7 @@ const CarouselComponent = () => {
           style={{
             backgroundSize: "cover",
             backgroundPosition: "center",
-            height: isSmallScreen ? "100vh" : "90vh",
+            height: isSmallScreen ? "70vh" : "90vh",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -65,7 +65,7 @@ const CarouselComponent = () => {
           style={{
             backgroundSize: "cover",
             backgroundPosition: "center",
-            height: isSmallScreen ? "100vh" : "90vh",
+            height: isSmallScreen ? "70vh" : "90vh",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -86,7 +86,7 @@ const Home = () => {
       <Box
         className="home-container"
         style={{
-          height: isSmallScreen ? "100vh" : "90vh",
+          height: isSmallScreen ? "70vh" : "90vh",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
