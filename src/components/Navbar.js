@@ -12,12 +12,13 @@ import {
   ListItemText,
 } from "@mui/material";
 import { Menu as MenuIcon } from "@mui/icons-material";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,6 +34,11 @@ const Navbar = () => {
       document.removeEventListener("scroll", handleScroll);
     };
   }, [scrolled]);
+
+  useEffect(() => {
+    // Reset scroll position when location changes
+    window.scrollTo(0, 0);
+  }, [location]);
 
   const toggleDrawer = (open) => (event) => {
     if (
@@ -64,8 +70,9 @@ const Navbar = () => {
       <Toolbar>
         <Typography
           variant="h6"
-          component="div"
-          sx={{ flexGrow: 1, color: "white" }}
+          component={Link} // Make TMFT a link to "/"
+          to="/"
+          sx={{ flexGrow: 1, color: "white", textDecoration: "none" }} // Added textDecoration: "none" to remove underline
         >
           TMFT
         </Typography>
@@ -77,6 +84,9 @@ const Navbar = () => {
               component={Link}
               to={item.to}
               sx={{ color: "white" }}
+              onClick={() => {
+                setDrawerOpen(false); // Close drawer on menu item click
+              }}
             >
               {item.text}
             </Button>
@@ -99,7 +109,9 @@ const Navbar = () => {
                 key={item.text}
                 component={Link}
                 to={item.to}
-                onClick={toggleDrawer(false)}
+                onClick={() => {
+                  setDrawerOpen(false); // Close drawer on menu item click
+                }}
               >
                 <ListItemText primary={item.text} />
               </ListItem>

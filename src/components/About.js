@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Typography, Box, Grid, Button } from "@mui/material";
 import "./About.css";
-
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <>
@@ -94,7 +94,7 @@ const About = () => {
             {teamMembers.map((member, index) => (
               <Grid
                 item
-                xs={12}
+                xs={6}
                 sm={6}
                 md={4}
                 lg={3}
@@ -138,7 +138,19 @@ const About = () => {
             <Typography variant="h5" gutterBottom>
               Helping the Homeless, Hungry, and Hurting Children
             </Typography>
-            <Button variant="contained" color="success" sx={{ mt: 2 }}>
+            <Typography variant="body1" gutterBottom>
+              "Together, we can make a difference in the lives of those in
+              need."
+              <br />
+              Your donation empowers us to create a brighter future for all.
+            </Typography>
+            <Button
+              component={Link}
+              to="/donate"
+              variant="contained"
+              color="primary"
+              sx={{ mt: 2 }}
+            >
               Donate Now
             </Button>
           </Box>
