@@ -72,11 +72,12 @@ const Home = () => {
               to="/donate"
               className="home-button"
               sx={{
+                backgroundColor: "blue",
                 border: "1px solid rgba(255, 255, 255, 0.4) !important",
                 opacity: "0.887956",
                 transform: "translateY(0)",
                 transition: "transform 0.3s ease, background-color 0.3s ease",
-                backgroundColor: "rgba(255, 255, 255, 0.1)",
+                // backgroundColor: "rgba(255, 255, 255, 0.1)",
                 color: "#fff",
                 borderRadius: 0,
                 borderWidth: "1px",

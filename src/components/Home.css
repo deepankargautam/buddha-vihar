@@ -183,6 +183,7 @@ body {
   padding: 50px 0;
   background-color: #ffffff;
   text-align: center;
+  box-shadow: inset 0 -5px 10px -5px #ff0000; /* Bluish inset shadow */
 }
 
 .donations-title {
@@ -239,6 +240,7 @@ body {
 .events-section {
   padding: 50px 0;
   background-color: #f9f9f9;
+  box-shadow: inset 0 -5px 10px -5px #ed6700; /* Bluish inset shadow */
 }
 
 .events-title {
