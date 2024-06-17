@@ -161,6 +161,66 @@ const teamMembers = [
     location: "रतनमई, रानीगंज, प्रतापगढ़",
     image: "worker.png", // Update the path accordingly
   },
+  {
+    name: "रीना गौतम",
+    position: "कोषाध्यक्ष",
+    location: "रतनमई, रानीगंज, प्रतापगढ़",
+    image: "worker.png", // Update the path accordingly
+  },
+  {
+    name: "उधमसिंह (अश्वजीतभंते)",
+    position: "संरक्षक",
+    location: "सहोदरपुर, सदर प्रतापगढ़",
+    image: "worker.png", // Update the path accordingly
+  },
+  {
+    name: "रामसूरत",
+    position: "महामंत्री",
+    location: "कंधई, पट्टी, प्रतापगढ़",
+    image: "worker.png", // Update the path accordingly
+  },
+  {
+    name: "अशोक कुमार",
+    position: "सहसचिव",
+    location: "रतनमई, रानीगंज, प्रतापगढ़",
+    image: "worker.png", // Update the path accordingly
+  },
+  {
+    name: "कुन्दन कुमार",
+    position: "संयुक्तमंत्री",
+    location: "बलिपुर. सदर, प्रतापगढ़",
+    image: "worker.png", // Update the path accordingly
+  },
+  {
+    name: "मगदूम",
+    position: "सह संयुक्तमंत्री",
+    location: "रतनमई, रानीगंज, प्रतापगढ़",
+    image: "worker.png", // Update the path accordingly
+  },
+  {
+    name: "हरीलाल बौध्दाचार्य",
+    position: "प्रचार मंत्री",
+    location: "हकीमकापूरा, सदर, प्रतापगढ़",
+    image: "worker.png", // Update the path accordingly
+  },
+  {
+    name: "नन्दराव",
+    position: "पुस्तकालय मंत्री",
+    location: "रतनमई, रानीगंज, प्रतापगढ़",
+    image: "worker.png", // Update the path accordingly
+  },
+  {
+    name: "मुनीन्द्र प्रताप भारती",
+    position: "विधिक सलाहकार",
+    location: "मढरामऊ, अमरगढ़, प्रतापगढ़",
+    image: "worker.png", // Update the path accordingly
+  },
+  {
+    name: "विभय कुमार",
+    position: "उपविधिक सलाहकार",
+    location: "रतनमई, रानीगंज, प्रतापगढ़",
+    image: "worker.png", // Update the path accordingly
+  },
   // Add more team members as needed
 ];
 
