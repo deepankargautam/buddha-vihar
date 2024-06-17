@@ -32,41 +32,47 @@ const CarouselComponent = () => {
       stopOnHover={true}
       transitionTime={500} // Change transition time as needed
     >
-      <div
-        style={{
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          height: isSmallScreen ? "100vh" : "90vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <img src="/buddha.jpg" alt="Buddha" />
+      <div>
+        <img
+          style={{
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: isSmallScreen ? "100vh" : "90vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+          src="/buddha.jpg"
+          alt="Buddha"
+        />
       </div>
-      <div
-        style={{
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          height: isSmallScreen ? "100vh" : "90vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <img src="/buddha-1.jpg" alt="Image 2" />
+      <div>
+        <img
+          style={{
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: isSmallScreen ? "100vh" : "90vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+          src="/buddha-1.jpg"
+          alt="Image 2"
+        />
       </div>
-      <div
-        style={{
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          height: isSmallScreen ? "100vh" : "90vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <img src="/buddha-2.jpg" alt="Image 3" />
+      <div>
+        <img
+          style={{
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: isSmallScreen ? "100vh" : "90vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+          src="/buddha-2.jpg"
+          alt="Image 3"
+        />
       </div>
     </Carousel>
   );
