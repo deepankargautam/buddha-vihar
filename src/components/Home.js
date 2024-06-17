@@ -14,17 +14,26 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import "./Home.css";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const Home = () => {
+const CarouselComponent = () => {
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
-
   return (
-    <>
+    <Carousel
+      showArrows={true}
+      showStatus={false}
+      showIndicators={false}
+      showThumbs={false}
+      infiniteLoop={true}
+      autoPlay={true}
+      interval={5000} // Change interval as needed
+      stopOnHover={true}
+      transitionTime={500} // Change transition time as needed
+    >
       <div
-        className="home-container"
         style={{
-          backgroundImage: "url(/buddha.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: isSmallScreen ? "100vh" : "90vh",
@@ -33,14 +42,69 @@ const Home = () => {
           justifyContent: "center",
         }}
       >
+        <img src="/buddha.jpg" alt="Buddha" />
+      </div>
+      <div
+        style={{
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: isSmallScreen ? "100vh" : "90vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <img src="/buddha-1.jpg" alt="Image 2" />
+      </div>
+      <div
+        style={{
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: isSmallScreen ? "100vh" : "90vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <img src="/buddha-2.jpg" alt="Image 3" />
+      </div>
+    </Carousel>
+  );
+};
+const Home = () => {
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+
+  return (
+    <>
+      <Box
+        className="home-container"
+        style={{
+          height: isSmallScreen ? "100vh" : "90vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          position: "relative", // Ensure this container can hold absolute positioned elements
+        }}
+      >
+        <CarouselComponent /> {/* Replace background image with Carousel */}
         <Box
           className="home-overlay"
           style={{
-            // backgroundColor: "rgba(0, 0, 0, 0.5)",
             padding: "2rem",
             borderRadius: "8px",
             textAlign: "center",
             width: isSmallScreen ? "100%" : "auto",
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            background: "rgba(0, 0, 0, 0.5)", // Semi-transparent overlay
           }}
         >
           <Container>
@@ -77,7 +141,6 @@ const Home = () => {
                 opacity: "0.887956",
                 transform: "translateY(0)",
                 transition: "transform 0.3s ease, background-color 0.3s ease",
-                // backgroundColor: "rgba(255, 255, 255, 0.1)",
                 color: "#fff",
                 borderRadius: 0,
                 borderWidth: "1px",
@@ -94,7 +157,7 @@ const Home = () => {
             </Button>
           </Container>
         </Box>
-      </div>
+      </Box>
 
       <div
         className="info-section"
