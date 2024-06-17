@@ -9,7 +9,7 @@ const About = () => {
       <div
         className="home-container"
         style={{
-          backgroundImage: "url(/buddha-1.jpg)",
+          backgroundImage: "url(/buddha.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "100vh",
