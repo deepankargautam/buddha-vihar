@@ -16,6 +16,9 @@ import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import "./Home.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import DonateSection from "./DonateSection";
+import ContactSection from "./ContactSection";
+import ImageGallary from "./ImageGallary";
 
 const CarouselComponent = () => {
   const theme = useTheme();
@@ -720,6 +723,16 @@ const Home = () => {
             </Grid>
           </Grid>
         </Container>
+      </div>
+      <DonateSection />
+      <ContactSection />
+      <div
+        className="events-section"
+        style={{ padding: isSmallScreen ? "1rem" : "2rem" }}
+      >
+        {/* <Container>
+          <ImageGallary />
+        </Container> */}
       </div>
     </>
   );

@@ -38,28 +38,28 @@ const Footer = () => {
               Services
             </Typography>
             <Typography variant="body2">
-              <Link href="#" color="inherit">
+              <Link href="/donate" color="inherit">
                 Donate
               </Link>
             </Typography>
             <Typography variant="body2">
-              <Link href="#" color="inherit">
-                Sponsor
+              <Link href="/causes" color="inherit">
+                Causes
               </Link>
             </Typography>
             <Typography variant="body2">
-              <Link href="#" color="inherit">
-                Fundraise
+              <Link href="/events" color="inherit">
+                Events
               </Link>
             </Typography>
             <Typography variant="body2">
-              <Link href="#" color="inherit">
-                Volunteer
+              <Link href="/contact" color="inherit">
+                Conatact
               </Link>
             </Typography>
             <Typography variant="body2">
-              <Link href="#" color="inherit">
-                Partner
+              <Link href="/" color="inherit">
+                Home
               </Link>
             </Typography>
           </Grid>
