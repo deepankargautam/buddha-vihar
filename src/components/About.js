@@ -9,10 +9,10 @@ const About = () => {
       <div
         className="home-container"
         style={{
-          backgroundImage: "url(/buddha.jpg)",
+          backgroundImage: "url(/buddha-1.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "100vh",
+          height: "30vh",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -53,7 +53,7 @@ const About = () => {
                 component="img"
                 sx={{
                   width: "100%",
-                  height: "auto",
+                  height: "40vh",
                   borderRadius: "8px",
                   boxShadow: 3,
                 }}
