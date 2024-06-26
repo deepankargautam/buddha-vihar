@@ -110,15 +110,15 @@ const Navbar = () => {
           <div
             style={{ display: "flex", alignItems: "center", flex: "1 1 50%" }}
           >
-            EN{" "}
-            <i className="icofont-simple-down" style={{ margin: "0 5px" }}></i>|
+            {/* EN{" "} */}
+            <i className="icofont-simple-down" style={{ margin: "0 5px" }}></i>
             <span style={{ marginLeft: "10px" }}>
-              We only have what we give.{" "}
+              {/* We only have what we give.{" "} */}
               <a
                 href="/donate"
                 style={{ color: "#fff", textDecoration: "underline" }}
               >
-                Donate Now
+                {/* Donate Now */}
               </a>
             </span>
           </div>
@@ -128,25 +128,24 @@ const Navbar = () => {
               display: "flex",
               alignItems: "center",
               flex: "1 1 50%",
-              justifyContent: "flex-end",
+              justifyContent: "center",
             }}
           >
-            <i className="icofont-envelope" style={{ marginRight: "5px" }}></i>
+            <i className="icofont-envelope" style={{ marginRight: "1px" }}></i>
             <a
               className="mailicon"
               href="mailto:barampatibuddhavihaar@gmail.com"
               style={{
                 color: "#fff",
                 textDecoration: "none",
-                marginRight: "10px",
+                marginRight: "5px",
               }}
             >
               barampatibuddhavihaar@gmail.com
             </a>
-            |
-            <i className="icofont-phone" style={{ margin: "0 5px 0 10px" }}></i>{" "}
-            +91 7570877174 |
-            <a href="#" className="twitter" style={{ margin: "0 5px" }}>
+            |<i className="icofont-phone" style={{ margin: "0 5px 0 5px" }}></i>{" "}
+            +91 7570877174
+            {/* <a href="#" className="twitter" style={{ margin: "0 5px" }}>
               <i className="icofont-twitter"></i>
             </a>
             <a href="#" className="facebook" style={{ margin: "0 5px" }}>
@@ -160,7 +159,7 @@ const Navbar = () => {
             </a>
             <a href="#" className="linkedin" style={{ margin: "0 5px" }}>
               <i className="icofont-linkedin"></i>
-            </a>
+            </a> */}
           </div>
         </div>
 
