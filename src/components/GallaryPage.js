@@ -286,7 +286,7 @@ function GallaryPage() {
       <Box
         className="home-overlay"
         style={{
-          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          backgroundColor: "rgba(0, 0, 0, 0.7)",
           padding: "2rem",
           borderRadius: "8px",
           textAlign: "center",
