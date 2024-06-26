@@ -76,7 +76,7 @@ const Navbar = () => {
     { text: "Causes", to: "/causes" },
     { text: "Donate", to: "/donate" },
     // { text: "Blog", to: "/blog" },
-    // { text: "Gallery", to: "/gallery" },
+    { text: "Gallery", to: "/gallery" },
     { text: "Events", to: "/events" },
     { text: "Contact", to: "/contact" },
   ];
