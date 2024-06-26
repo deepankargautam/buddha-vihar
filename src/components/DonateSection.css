@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: repeating-conic-gradient(
+    from 0deg,
+    orangered,
+    transparent 10deg,
+    orange 10deg,
+    orangered 20deg
+  );
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: orange;
+}
+
+.donate-content {
+  background-size: "cover";
+  background-position: "center";
+  height: "300px";
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  position: "relative";
+  text-align: "center";
+  color: "#fff";
+}

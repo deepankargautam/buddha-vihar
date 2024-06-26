@@ -3,8 +3,21 @@ import { Container, Typography, Box, Button } from "@mui/material";
 import { styled } from "@mui/system";
 
 const SectionContainer = styled("div")({
-  backgroundImage: "url(/path-to-your-image.png)", // Update the path accordingly
-  backgroundSize: "cover",
+  // backgroundImage: "url(/path-to-your-image.png)", // Update the path accordingly
+  width: "100%",
+  // height: "100%",
+  backgroundImage: `repeating-conic-gradient(
+    from 0deg,
+    orangered,
+    transparent 10deg,
+    orange 10deg,
+    orangered 20deg
+  )`,
+  backgroundSize: "100% 100%",
+  backgroundRepeat: "no-repeat",
+  backgroundColor: "orange",
+
+  // backgroundSize: "cover",
   backgroundPosition: "center",
   height: "300px",
   display: "flex",
