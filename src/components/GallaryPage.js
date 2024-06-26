@@ -341,49 +341,40 @@ function GallaryPage() {
           data-pinterest-text="Pin it2"
           data-tweet-text="lightGallery slide  2"
           className="gallery__item"
-          data-src="/buddha-1.jpg"
+          data-src="/20230703_165838.jpg"
           data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@therawhunter' >Massimiliano Morosinotto </a></h4><p> Location - <a href='https://unsplash.com/s/photos/tre-cime-di-lavaredo%2C-italia'>Tre Cime di Lavaredo, Italia</a>This is the Way</p>"
         >
-          <img className="img-responsive" src="buddha-1.jpg" />
+          <img className="img-responsive" src="/20230703_165838.jpg" />
         </a>
         <a
           data-lg-size="1600-2400"
           data-pinterest-text="Pin it3"
           data-tweet-text="lightGallery slide  4"
           className="gallery__item"
-          data-src="https://images.unsplash.com/photo-1605973029521-8154da591bd7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1600&q=80"
+          data-src="/20230703_162355.jpg"
           data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@thesaboo' >Sascha Bosshard </a></h4><p> Location - <a href='https://unsplash.com/s/photos/pizol%2C-mels%2C-schweiz'>Pizol, Mels, Schweiz</a></p>"
         >
-          <img
-            className="img-responsive"
-            src="https://images.unsplash.com/photo-1605973029521-8154da591bd7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=240&q=80"
-          />
+          <img className="img-responsive" src="/20230703_162355.jpg" />
         </a>
         <a
           data-lg-size="1600-2398"
           data-pinterest-text="Pin it3"
           data-tweet-text="lightGallery slide  4"
           className="gallery__item"
-          data-src="https://images.unsplash.com/photo-1526281216101-e55f00f0db7a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1600&q=80"
+          data-src="/20230703_143200.jpg"
           data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@yusufevli' >Yusuf Evli </a></h4><p> Foggy Road</p>"
         >
-          <img
-            className="img-responsive"
-            src="https://images.unsplash.com/photo-1526281216101-e55f00f0db7a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=240&q=80"
-          />
+          <img className="img-responsive" src="/20230703_143200.jpg" />
         </a>
         <a
           data-lg-size="1600-1067"
           data-pinterest-text="Pin it3"
           data-tweet-text="lightGallery slide  4"
           className="gallery__item"
-          data-src="https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80"
+          data-src="/20230703_142858.jpg"
           data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@flovayn' >Jay Mantri</a></h4><p>  Misty shroud over a forest</p>"
         >
-          <img
-            className="img-responsive"
-            src="https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=240&q=80"
-          />
+          <img className="img-responsive" src="/20230703_142858.jpg" />
         </a>
         <a
           data-lg-size="1600-1067"
