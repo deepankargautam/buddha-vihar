@@ -1,7 +1,8 @@
 .team-section {
+  border-radius: 10px;
   width: 100%;
   max-width: 240px; /* Adjust max-width as per your design */
-  height: 80px;
+  height: 75px;
   background: #ffffff;
   /* box-shadow:
     inset 0 -3em 3em rgba(0, 0, 0, 0.1),

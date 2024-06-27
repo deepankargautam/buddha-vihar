@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Typography, Box, Button } from "@mui/material";
 import { styled } from "@mui/system";
-
+import { Link } from "react-router-dom";
 const SectionContainer = styled("div")({
   // backgroundImage: "url(/path-to-your-image.png)", // Update the path accordingly
   width: "100%",
@@ -55,8 +55,29 @@ const DonateSection = () => {
           India founded by Thathagat Maharvihar Foundation Trust for fulfilling
           the arm & objectives of the society.
         </Typography>
-        <Button variant="contained" color="primary">
-          DONATE NOW
+        <Button
+          component={Link}
+          to="/donate"
+          className="home-button"
+          sx={{
+            backgroundColor: "blue",
+            border: "1px solid rgba(255, 255, 255, 0.4) !important",
+            opacity: "0.887956",
+            transform: "translateY(0)",
+            transition: "transform 0.3s ease, background-color 0.3s ease",
+            color: "#fff",
+            borderRadius: 0,
+            borderWidth: "1px",
+            boxShadow: "0 5px 20px -5px rgba(0, 0, 0, 0.5)",
+            fontWeight: "400",
+            padding: "0.375rem 0.75rem",
+            "&:hover": {
+              transform: "translateY(-5px)",
+              backgroundColor: "rgba(255, 255, 255, 0.2)",
+            },
+          }}
+        >
+          Donate Now
         </Button>
       </Content>
     </SectionContainer>

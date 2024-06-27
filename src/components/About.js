@@ -76,7 +76,28 @@ const About = () => {
                 अंबेडकर जी के सिद्धांतों के माध्यम से समाज में मैत्री, करुणा,
                 मुदिता और अपेक्षा स्थापित करना है।
               </Typography>
-              <Button variant="contained" color="success" sx={{ mt: 2 }}>
+              <Button
+                component={Link}
+                to="/donate"
+                className="home-button"
+                sx={{
+                  backgroundColor: "blue",
+                  border: "1px solid rgba(255, 255, 255, 0.4) !important",
+                  opacity: "0.887956",
+                  transform: "translateY(0)",
+                  transition: "transform 0.3s ease, background-color 0.3s ease",
+                  color: "#fff",
+                  borderRadius: 0,
+                  borderWidth: "1px",
+                  boxShadow: "0 5px 20px -5px rgba(0, 0, 0, 0.5)",
+                  fontWeight: "400",
+                  padding: "0.375rem 0.75rem",
+                  "&:hover": {
+                    transform: "translateY(-5px)",
+                    backgroundColor: "rgba(255, 255, 255, 0.2)",
+                  },
+                }}
+              >
                 Donate Now
               </Button>
             </Grid>
@@ -122,7 +143,7 @@ const About = () => {
                     <Typography
                       style={{ fontSize: "12px" }}
                       variant="body2"
-                      color="text.secondary"
+                      color="#dc5427"
                       className="team-section-subtitle"
                     >
                       {member.position}
@@ -161,7 +182,7 @@ const teamMembers = [
     image: "worker.png", // Update the path accordingly
   },
   {
-    name: "उधमसिंह (अश्वजीतभंते)",
+    name: "उधमसिंह",
     position: "संरक्षक",
     location: "सहोदरपुर, सदर प्रतापगढ़",
     image: "worker.png", // Update the path accordingly

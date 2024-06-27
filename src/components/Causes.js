@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Typography, Box, Grid, Button } from "@mui/material";
+import { Container, Typography, Box, Grid } from "@mui/material";
 import DonateSection from "./DonateSection";
 
 const Causes = () => {
@@ -37,8 +37,8 @@ const Causes = () => {
               Our Causes
             </Typography>
             <Typography variant="body1" gutterBottom style={{ color: "#fff" }}>
-              This trust/charity is a charitable organization that operates
-              above caste, class, community, gender, and politics.
+              यह ट्रस्ट/चैरिटी एक परोपकारी संगठन है जो जाति, वर्ग, समुदाय, लिंग,
+              और राजनीति से ऊपर काम करता है।
             </Typography>
           </Container>
         </Box>
@@ -51,7 +51,7 @@ const Causes = () => {
             gutterBottom
             className="causes-title"
           >
-            OUR CAUSES
+            Our Causes
           </Typography>
           <Typography
             variant="body1"
@@ -59,8 +59,8 @@ const Causes = () => {
             className="causes-subtitle"
             sx={{ marginBottom: "30px" }}
           >
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
+            बहुत दूर, शब्द पर्वतों के पीछे, वोकालिया और कॉन्सोनैंटिया देशों से
+            दूर, वहां अंधे टेक्स्ट्स रहते हैं।
           </Typography>
           <Grid container spacing={4} className="causes-grid">
             <Grid item xs={12} md={4}>
@@ -72,15 +72,15 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Teacher/Training and Research Institutes
+                    शिक्षक/प्रशिक्षण और अनुसंधान संस्थान
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Establishing teacher/training and research institutes for
-                    monks, nuns, novices, and lay practitioners.
+                    भिक्षुओं, ननों, नवसिखुओं और गृहस्थों के लिए शिक्षक/प्रशिक्षण
+                    और अनुसंधान संस्थान स्थापित करना।
                   </Typography>
                 </div>
               </div>
@@ -94,15 +94,15 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Meditation Centers
+                    ध्यान केंद्र
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Establishing meditation centers for monks, nuns, novices,
-                    and lay practitioners.
+                    भिक्षुओं, ननों, नवसिखुओं और गृहस्थों के लिए ध्यान केंद्र
+                    स्थापित करना।
                   </Typography>
                 </div>
               </div>
@@ -116,15 +116,15 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Training Camps
+                    प्रशिक्षण शिविर
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Organizing training programs and camps for monks, nuns,
-                    novices, and lay practitioners periodically.
+                    भिक्षुओं, ननों, नवसिखुओं और गृहस्थों के लिए प्रशिक्षण
+                    कार्यक्रम और शिविर आयोजित करना।
                   </Typography>
                 </div>
               </div>
@@ -138,17 +138,16 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Preservation of Buddhist Sites
+                    बौद्ध स्थलों का संरक्षण
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Undertaking all activities for the discovery,
-                    encroachment-free preservation of ancient Buddhist
-                    universities, records, ruins, Mahaviharas, and Buddhist
-                    sites.
+                    प्राचीन बौद्ध विश्वविद्यालयों, अभिलेखों, खंडहरों, महाविहारों
+                    और बौद्ध स्थलों की खोज और अतिक्रमण-मुक्त संरक्षण के सभी
+                    कार्य करना।
                   </Typography>
                 </div>
               </div>
@@ -162,14 +161,14 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Environmental Conservation
+                    पर्यावरण संरक्षण
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Making every effort to conserve the environment.
+                    पर्यावरण के संरक्षण के लिए हर संभव प्रयास करना।
                   </Typography>
                 </div>
               </div>
@@ -183,14 +182,14 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Buddhist Pilgrimages
+                    बौद्ध तीर्थ यात्रा
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Organizing pilgrimages for Buddhist devotees periodically.
+                    समय-समय पर बौद्ध भक्तों के लिए तीर्थ यात्राओं का आयोजन करना।
                   </Typography>
                 </div>
               </div>
@@ -204,16 +203,15 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Cultural Festivals
+                    सांस्कृतिक उत्सव
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Organizing cultural festivals, commemorations of great
-                    personalities, and other events for the promotion of
-                    Buddhism.
+                    बौद्ध धर्म के प्रचार के लिए सांस्कृतिक उत्सवों, महान
+                    व्यक्तित्वों के स्मरण और अन्य आयोजनों का आयोजन करना।
                   </Typography>
                 </div>
               </div>
@@ -227,17 +225,16 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Schools, Colleges, and Libraries
+                    स्कूल, कॉलेज और पुस्तकालय
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Establishing schools, colleges, Buddhist universities,
-                    archives, research institutes , stupas, pillars, statues of
-                    great personalities, and libraries for the promotion and
-                    spread of Buddhism.
+                    बौद्ध धर्म के प्रचार और प्रसार के लिए स्कूल, कॉलेज, बौद्ध
+                    विश्वविद्यालय, अभिलेखागार, अनुसंधान संस्थान, स्तूप, स्तंभ,
+                    महान व्यक्तियों की मूर्तियाँ और पुस्तकालय स्थापित करना।
                   </Typography>
                 </div>
               </div>
@@ -251,15 +248,14 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Pali Language Preservation
+                    पाली भाषा का संरक्षण
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Undertaking all activities for the preservation and
-                    development of the Pali language.
+                    पाली भाषा के संरक्षण और विकास के सभी कार्य करना।
                   </Typography>
                 </div>
               </div>
@@ -273,14 +269,14 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Orphanages and Free Hospitals
+                    अनाथालय और नि:शुल्क अस्पताल
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Establishing orphanages, old age homes, and free hospitals.
+                    अनाथालय, वृद्धाश्रम और नि:शुल्क अस्पताल स्थापित करना।
                   </Typography>
                 </div>
               </div>
@@ -294,18 +290,17 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Constitution Protection
+                    संविधान की सुरक्षा
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Undertaking all activities to protect the Indian
-                    Constitution, running Sunday and public holiday schools for
-                    constitutional studies, organizing seminars, and striving to
-                    include the Indian Constitution and Buddhist scriptures in
-                    the curriculum across India.
+                    भारतीय संविधान की सुरक्षा के लिए सभी कार्य करना, संविधान
+                    अध्ययन के लिए रविवार और सार्वजनिक छुट्टियों के स्कूल चलाना,
+                    संगोष्ठियों का आयोजन करना और पूरे भारत में भारतीय संविधान और
+                    बौद्ध ग्रंथों को पाठ्यक्रम में शामिल करने का प्रयास करना।
                   </Typography>
                 </div>
               </div>
@@ -319,15 +314,15 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Women Empowerment
+                    महिला सशक्तिकरण
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Undertaking all activities to ensure respect, empowerment,
-                    equality, security, and protection for women.
+                    महिलाओं के सम्मान, सशक्तिकरण, समानता, सुरक्षा और संरक्षण के
+                    लिए सभी कार्य करना।
                   </Typography>
                 </div>
               </div>
@@ -341,15 +336,15 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Publishing
+                    प्रकाशन
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Arranging funds for publishing activities and publishing
-                    magazines.
+                    प्रकाशन गतिविधियों के लिए धन की व्यवस्था करना और पत्रिकाओं
+                    का प्रकाशन करना।
                   </Typography>
                 </div>
               </div>
@@ -363,15 +358,15 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Social Welfare
+                    सामाजिक कल्याण
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Conducting all social activities for the welfare of humanity
-                    and the spread of Buddhism.
+                    मानवता के कल्याण और बौद्ध धर्म के प्रचार के लिए सभी सामाजिक
+                    गतिविधियाँ करना।
                   </Typography>
                 </div>
               </div>
@@ -385,15 +380,15 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Support for Needy Children
+                    जरूरतमंद बच्चों का समर्थन
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Arranging education, training, marriages, etc., for helpless
-                    boys and girls.
+                    बेसहारा लड़कों और लड़कियों के लिए शिक्षा, प्रशिक्षण, विवाह
+                    आदि की व्यवस्था करना।
                   </Typography>
                 </div>
               </div>
@@ -407,15 +402,14 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Village Awakening
+                    गांव जागरण
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Conducting cadres in villages for the awakening of the
-                    entire society.
+                    पूरे समाज के जागरण के लिए गांवों में कैडर आयोजित करना।
                   </Typography>
                 </div>
               </div>
@@ -429,18 +423,16 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Dr. Ambedkar's Teachings
+                    डॉ. अंबेडकर की शिक्षाएं
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Bringing the entire enlightened class together on one
-                    platform with the teachings of Dr. Bhimrao Ambedkar -
-                    "Educate, Organize, Agitate" - and establishing
-                    friendliness, compassion, joy, and equanimity in the entire
-                    society.
+                    डॉ. भीमराव अंबेडकर की शिक्षाओं "शिक्षित बनो, संगठित बनो,
+                    संघर्ष करो" के साथ पूरे जागरूक वर्ग को एक मंच पर लाना और
+                    पूरे समाज में मैत्री, करुणा, हर्ष और समता स्थापित करना।
                   </Typography>
                 </div>
               </div>
@@ -454,16 +446,16 @@ const Causes = () => {
                     component="h3"
                     className="cause-title"
                   >
-                    Educational Institutions
+                    शैक्षणिक संस्थान
                   </Typography>
                   <Typography
                     variant="body2"
                     component="p"
                     className="cause-description"
                   >
-                    Establishing and operating primary schools, secondary
-                    schools, inter colleges, undergraduate and postgraduate
-                    institutions, and libraries.
+                    प्राथमिक विद्यालय, माध्यमिक विद्यालय, इंटर कॉलेज, स्नातक और
+                    स्नातकोत्तर संस्थान और पुस्तकालय स्थापित करना और संचालित
+                    करना।
                   </Typography>
                 </div>
               </div>
