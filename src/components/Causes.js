@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Typography, Box, Grid, Button } from "@mui/material";
+import DonateSection from "./DonateSection";
 
 const Causes = () => {
   return (
@@ -468,16 +469,9 @@ const Causes = () => {
               </div>
             </Grid>
           </Grid>
-          <Box sx={{ mt: 8, textAlign: "center", bgcolor: "#ccc", py: 4 }}>
-            <Typography variant="h5" gutterBottom>
-              Helping the Homeless, Hungry, and Hurting Children
-            </Typography>
-            <Button variant="contained" color="success">
-              Donate Now
-            </Button>
-          </Box>
         </Container>
       </div>
+      <DonateSection />
     </>
   );
 };

@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Typography, Box, Grid, Button } from "@mui/material";
 import "./About.css";
 import { Link } from "react-router-dom";
+import DonateSection from "./DonateSection";
 const About = () => {
   return (
     <>
@@ -102,23 +103,24 @@ const About = () => {
                 sx={{ textAlign: "center" }}
               >
                 <div className="team-section">
+                  <div
+                    className="team-section-avatar"
+                    style={{
+                      backgroundImage: `url(${member.image})`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                      float: "left",
+                    }}
+                  />
                   <div className="team-section-info">
-                    <div
-                      className="team-section-avatar"
-                      style={{
-                        backgroundImage: `url(${member.image})`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                      }}
-                    />
                     <Typography
-                      variant="h6"
-                      gutterBottom
+                      style={{ fontSize: "12px", fontWeight: 700 }}
                       className="team-section-title"
                     >
                       {member.name}
                     </Typography>
                     <Typography
+                      style={{ fontSize: "12px" }}
                       variant="body2"
                       color="text.secondary"
                       className="team-section-subtitle"
@@ -132,30 +134,9 @@ const About = () => {
               </Grid>
             ))}
           </Grid>
-
-          {/* Donation call to action */}
-          <Box sx={{ mt: 8, textAlign: "center", bgcolor: "#f9f9f9", py: 4 }}>
-            <Typography variant="h5" gutterBottom>
-              Helping the Homeless, Hungry, and Hurting Children
-            </Typography>
-            <Typography variant="body1" gutterBottom>
-              "Together, we can make a difference in the lives of those in
-              need."
-              <br />
-              Your donation empowers us to create a brighter future for all.
-            </Typography>
-            <Button
-              component={Link}
-              to="/donate"
-              variant="contained"
-              color="primary"
-              sx={{ mt: 2 }}
-            >
-              Donate Now
-            </Button>
-          </Box>
         </Box>
       </Container>
+      <DonateSection />
     </>
   );
 };
@@ -165,7 +146,7 @@ const teamMembers = [
     name: "B R Gautam",
     position: "मुख्य ट्रस्टी",
     location: "रतनमई, रानीगंज, प्रतापगढ़",
-    image: "worker.png", // Update the path accordingly
+    image: "donar-1.jpeg", // Update the path accordingly
   },
   {
     name: "बविता कोरी",

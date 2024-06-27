@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Typography, Box, TextField, Button } from "@mui/material";
 import { Link } from "react-router-dom";
+import DonateSection from "./DonateSection";
 const Contact = () => {
   return (
     <>
@@ -105,35 +106,8 @@ const Contact = () => {
             </Button>
           </form>
         </Box>
-        <Box sx={{ mt: 8, textAlign: "center", bgcolor: "#f9f9f9", py: 4 }}>
-          <Typography variant="h5" gutterBottom>
-            Helping the Homeless, Hungry, and Hurting Children
-          </Typography>
-          <Typography variant="body1" gutterBottom>
-            "Together, we can make a difference in the lives of those in need."
-            <br />
-            Your donation empowers us to create a brighter future for all.
-          </Typography>
-          <Button
-            component={Link}
-            to="/donate"
-            variant="contained"
-            color="primary"
-            sx={{ mt: 2 }}
-          >
-            Donate Now
-          </Button>
-        </Box>
       </Container>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.5697320863394!2d82.0526689!3d25.872226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a9900243f3073%3A0xcd42776f187bd04b!2sBarampati%20Buddha%20Vihar%20Ratanmai!5e0!3m2!1sen!2sin!4v1623939483742!5m2!1sen!2sin"
-        width="100%"
-        height="100%"
-        style={{ border: 0 }}
-        allowFullScreen=""
-        loading="lazy"
-        title="Google Map"
-      />
+      <DonateSection />
     </>
   );
 };

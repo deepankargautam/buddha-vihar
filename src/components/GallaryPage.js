@@ -376,7 +376,7 @@ function GallaryPage() {
         >
           <img className="img-responsive" src="/20230703_142858.jpg" />
         </a>
-        <a
+        {/* <a
           data-lg-size="1600-1067"
           data-pinterest-text="Pin it3"
           data-tweet-text="lightGallery slide  4"
@@ -598,7 +598,7 @@ function GallaryPage() {
             className="img-responsive"
             src="https://images.unsplash.com/photo-1471931452361-f5ff1faa15ad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=240&q=80"
           />
-        </a>
+        </a> */}
       </LightGallery>
     </div>
   );

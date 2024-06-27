@@ -726,14 +726,6 @@ const Home = () => {
       </div>
       <DonateSection />
       <ContactSection />
-      <div
-        className="events-section"
-        style={{ padding: isSmallScreen ? "1rem" : "2rem" }}
-      >
-        {/* <Container>
-          <ImageGallary />
-        </Container> */}
-      </div>
     </>
   );
 };

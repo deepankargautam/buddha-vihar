@@ -86,7 +86,7 @@ const Navbar = ({ setLoading }) => {
           <Box
             sx={{ display: "flex", alignItems: "center", marginRight: "170px" }}
           >
-            <img src="/buddha.png" alt="Buddha" style={{ height: 40 }} />
+            <img src="/buddha-1.png" alt="Buddha" style={{ height: 40 }} />
           </Box>
           <Box sx={{ display: { xs: "none", md: "flex" }, gap: "1rem" }}>
             {menuItems.map((item) => (

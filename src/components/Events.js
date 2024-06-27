@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Typography, Grid, Box } from "@mui/material";
+import DonateSection from "./DonateSection";
 
 const Events = () => {
   return (
@@ -167,6 +168,7 @@ const Events = () => {
           </Grid>
         </Container>
       </div>
+      <DonateSection />
     </>
   );
 };
