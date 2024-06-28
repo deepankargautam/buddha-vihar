@@ -45,7 +45,7 @@ const CarouselComponent = () => {
             alignItems: "center",
             justifyContent: "center",
           }}
-          src="/buddha.jpg"
+          src="/buddha-1.jpg"
           alt="Buddha"
         />
       </div>
@@ -59,7 +59,7 @@ const CarouselComponent = () => {
             alignItems: "center",
             justifyContent: "center",
           }}
-          src="/buddha-1.jpg"
+          src="/budhha-2.jpg"
           alt="Image 2"
         />
       </div>
@@ -73,7 +73,7 @@ const CarouselComponent = () => {
             alignItems: "center",
             justifyContent: "center",
           }}
-          src="/buddha-2.jpg"
+          src="/budhha-3.jpg"
           alt="Image 3"
         />
       </div>

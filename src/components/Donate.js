@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios"; // Use axios for HTTP requests
+import axios from "axios";
 import {
   Container,
   Typography,
@@ -10,10 +10,27 @@ import {
   Divider,
   Grid,
   useMediaQuery,
+  IconButton,
+  Tooltip,
 } from "@mui/material";
 import { useTheme } from "@emotion/react";
-
+import { keyframes } from "@emotion/react";
+import { ContentCopy } from "@mui/icons-material";
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 const Donate = () => {
+  const bounce = keyframes`
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-5px);
+  }
+  60% {
+    transform: translateX(5px);
+  }
+`;
+
   const [language, setLanguage] = useState("english");
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
@@ -35,11 +52,16 @@ const Donate = () => {
             "हम इस महत्वपूर्ण कार्य के लिए आपका सहयोग अनुरोध करते हैं। आपके सहयोग के साथ, हम इस महत्वपूर्ण पहल को सफल बना सकते हैं और हमारे समाज को समृद्धि और सामाजिक सुधार की ओर और भी अग्रसर कर सकते हैं।",
           bankDetails:
             "वित्तीय सहायता के लिए कृपया निम्नलिखित विवरण का प्रयोग करें:",
-          bankName: "बैंक का नाम: बैरोडा यूपी बैंक",
-          accountName: "खाता धारक का नाम: तथागत महाविहार फाउंडेशन ट्रस्ट",
-          accountNo: "खाता संख्या: 53640100023052",
-          ifscCode: "IFSC कोड: BARB0BUPGBX",
-          address: "पता: रतनमई दिलीपपुर प्रतापगढ़ यूपी 230127",
+          bankNameVar: "बैंक का नाम: ",
+          bankName: "बैरोडा यूपी बैंक",
+          accountNameVar: "खाता धारक का नाम: ",
+          accountName: "तथागत महाविहार फाउंडेशन ट्रस्ट",
+          accountNoVar: "खाता संख्या: ",
+          accountNo: "53640100023052",
+          ifscCodeVar: "IFSC कोड: ",
+          ifscCode: "BARB0BUPGBX",
+          addressVar: "पता: ",
+          address: "रतनमई दिलीपपुर प्रतापगढ़ यूपी 230127",
           shareMessage:
             "कृपया हमारे संगठन का संदेश अपने दोस्तों और परिवार के सदस्यों के साथ साझा करें और हमें इस महत्वपूर्ण काम को साकार करने में सबसे उच्च समर्थन प्रदान करें।",
           support:
@@ -62,11 +84,16 @@ const Donate = () => {
             "We request your support for this important cause. With your support, we can make this significant initiative successful and further advance our society towards prosperity and social improvement.",
           bankDetails:
             "Please use the following details for financial support:",
-          bankName: "Bank Name: Baroda U.P. Bank",
-          accountName: "Account Name: TATHAGAT MAHAVIHAR FOUNDATION TRUST",
-          accountNo: "Account No: 53640100023052",
-          ifscCode: "IFSC Code: BARB0BUPGBX",
-          address: "Address: RATANMAI DILIPPUR PRATAPGARH UP 230127",
+          bankNameVar: "Bank Name: ",
+          bankName: "Baroda U.P. Bank",
+          accountNameVar: "Account Name: ",
+          accountName: "TATHAGAT MAHAVIHAR FOUNDATION TRUST",
+          accountNoVar: "Account No: ",
+          accountNo: "53640100023052",
+          ifscCodeVar: "IFSC Code: ",
+          ifscCode: "BARB0BUPGBX",
+          addressVar: "Address: ",
+          address: "RATANMAI DILIPPUR PRATAPGARH UP 230127",
           shareMessage:
             "Please share our organization's message with your friends and family members and provide the highest support to us in realizing this important work.",
           support:
@@ -104,10 +131,15 @@ const Donate = () => {
         "http://localhost:5000/donations",
         newDonation,
       );
-      setDonations([...donations, response.data]); // Update state with new donation
+      setDonations([...donations, response.data]);
     } catch (error) {
       console.error("Error adding donation:", error);
     }
+  };
+
+  const copyToClipboard = (text) => {
+    navigator.clipboard.writeText(text);
+    alert("Copied to clipboard: " + text);
   };
 
   return (
@@ -200,19 +232,75 @@ const Donate = () => {
               }}
             >
               <Typography variant="body1" paragraph>
+                {getContent().bankNameVar}
                 {getContent().bankName}
+                <CopyToClipboard text={getContent().bankName}>
+                  <Tooltip title="Click here to copy" arrow placement="right">
+                    <IconButton
+                      size="small"
+                      onClick={() => copyToClipboard(getContent().bankName)}
+                    >
+                      <ContentCopy fontSize="small" />
+                    </IconButton>
+                  </Tooltip>
+                </CopyToClipboard>
               </Typography>
+
               <Typography variant="body1" paragraph>
+                {getContent().accountNameVar}
                 {getContent().accountName}
+                <CopyToClipboard text={getContent().accountName}>
+                  <Tooltip title="Click here to copy" arrow placement="right">
+                    <IconButton
+                      size="small"
+                      onClick={() => copyToClipboard(getContent().accountName)}
+                    >
+                      <ContentCopy fontSize="small" />
+                    </IconButton>
+                  </Tooltip>
+                </CopyToClipboard>
               </Typography>
               <Typography variant="body1" paragraph>
+                {getContent().accountNoVar}
                 {getContent().accountNo}
+                <CopyToClipboard text={getContent().accountNo}>
+                  <Tooltip title="Click here to copy" arrow placement="right">
+                    <IconButton
+                      size="small"
+                      onClick={() => copyToClipboard(getContent().accountNo)}
+                    >
+                      <ContentCopy fontSize="small" />
+                    </IconButton>
+                  </Tooltip>
+                </CopyToClipboard>
               </Typography>
               <Typography variant="body1" paragraph>
+                {getContent().ifscCodeVar}
                 {getContent().ifscCode}
+                <CopyToClipboard text={getContent().ifscCode}>
+                  <Tooltip title="Click here to copy" arrow placement="right">
+                    <IconButton
+                      size="small"
+                      onClick={() => copyToClipboard(getContent().ifscCode)}
+                    >
+                      <ContentCopy fontSize="small" />
+                    </IconButton>
+                  </Tooltip>
+                </CopyToClipboard>
               </Typography>
               <Typography variant="body1" paragraph>
+                {getContent().addressVar}
                 {getContent().address}
+                <CopyToClipboard text={getContent().address}>
+                  <Tooltip title="Click here to copy" arrow placement="right">
+                    <IconButton
+                      size="small"
+                      onClick={() => copyToClipboard(getContent().address)}
+                    >
+                      <ContentCopy fontSize="small" />
+                    </IconButton>
+                  </Tooltip>
+                </CopyToClipboard>
               </Typography>
             </Box>
             <Typography variant="body1" paragraph color="textSecondary">
