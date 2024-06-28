@@ -51,7 +51,7 @@ const Causes = () => {
             gutterBottom
             className="causes-title"
           >
-            Our Causes
+            {/* Our Causes */}
           </Typography>
           <Typography
             variant="body1"
@@ -59,8 +59,8 @@ const Causes = () => {
             className="causes-subtitle"
             sx={{ marginBottom: "30px" }}
           >
-            बहुत दूर, शब्द पर्वतों के पीछे, वोकालिया और कॉन्सोनैंटिया देशों से
-            दूर, वहां अंधे टेक्स्ट्स रहते हैं।
+            {/* बहुत दूर, शब्द पर्वतों के पीछे, वोकालिया और कॉन्सोनैंटिया देशों से
+            दूर, वहां अंधे टेक्स्ट्स रहते हैं। */}
           </Typography>
           <Grid container spacing={4} className="causes-grid">
             <Grid item xs={12} md={4}>
