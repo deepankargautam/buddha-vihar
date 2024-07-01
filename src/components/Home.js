@@ -123,9 +123,13 @@ const Home = () => {
               gutterBottom
               className="home-title"
               style={{
-                color: "#fff",
+                // color: "#fff",
                 fontWeight: "bold",
                 fontSize: isSmallScreen ? "2rem" : "3rem",
+                background:
+                  "linear-gradient(to right, #ff4b1f, #ff9068, #ffc837, #f7ff00, #db36a4, #12c2e9)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
               }}
             >
               Help Build the Barampati Buddha Vihaar
@@ -135,7 +139,17 @@ const Home = () => {
               component="h2"
               gutterBottom
               className="home-subtitle"
-              style={{ color: "#ddd", marginBottom: "2rem" }}
+              // style={{ color: "#ddd", marginBottom: "2rem" }}
+              style={{
+                color: "#ddd",
+                marginBottom: "2rem",
+                // background: "linear-gradient(to right, #ff4b1f, #1fddff)",
+                // WebkitBackgroundClip: "text",
+                // WebkitTextFillColor: "transparent",
+                background: "linear-gradient(to right, #00c6ff, #0072ff)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+              }}
             >
               Your Contribution Can Make a Difference - Support the Tathagat
               Mahavihar Foundation Trust
@@ -145,13 +159,15 @@ const Home = () => {
               to="/donate"
               className="home-button"
               sx={{
-                backgroundColor: "blue",
-                border: "1px solid rgba(255, 255, 255, 0.4) !important",
+                // backgroundColor: "blue",
+                // border: "1px solid rgba(255, 255, 255, 0.4) !important",
+                border: "3px solid white !important",
                 opacity: "0.887956",
                 transform: "translateY(0)",
                 transition: "transform 0.3s ease, background-color 0.3s ease",
                 color: "#fff",
-                borderRadius: 0,
+                // borderRadius: 0,
+                borderRadius: 30,
                 borderWidth: "1px",
                 boxShadow: "0 5px 20px -5px rgba(0, 0, 0, 0.5)",
                 fontWeight: "400",

@@ -1,7 +1,9 @@
 .navbar {
-  transition: background-color 0.3s ease;
+  transition: background-color 0.8s ease;
+  color: black;
 }
 
 .navbar.scrolled {
-  background-color: darkblue; /* Change this to your desired scrolled background color */
+  background-color: white; /* Change this to your desired scrolled background color */
+  color: black;
 }

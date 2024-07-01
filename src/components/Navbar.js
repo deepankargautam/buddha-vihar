@@ -23,7 +23,7 @@ const Navbar = ({ setLoading }) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const isScrolled = window.scrollY > 50;
+      const isScrolled = window.scrollY > 400;
       if (isScrolled !== scrolled) {
         setScrolled(isScrolled);
       }
@@ -69,16 +69,15 @@ const Navbar = ({ setLoading }) => {
   return (
     <>
       <AppBar
-        position="sticky"
         className={scrolled ? "navbar scrolled" : "navbar"}
-        sx={{ backgroundColor: "blue" }}
+        sx={{ backgroundColor: "transparent" }}
       >
         <Toolbar>
           <Typography
             variant="h6"
             component={Link}
             to="/"
-            sx={{ flexGrow: 1, color: "white", textDecoration: "none" }}
+            sx={{ flexGrow: 1, color: "red", textDecoration: "none" }}
           >
             TMFT
           </Typography>
@@ -95,7 +94,7 @@ const Navbar = ({ setLoading }) => {
                 color="inherit"
                 component={Link}
                 to={item.to}
-                sx={{ color: "white" }}
+                // sx={{ color: "white" }}
                 onClick={handleLinkClick}
               >
                 {item.text}
