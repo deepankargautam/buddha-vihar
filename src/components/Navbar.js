@@ -43,7 +43,7 @@ const Navbar = ({ setLoading }) => {
   useEffect(() => {
     // Reset scroll position when location changes
     window.scrollTo(0, 0);
-    setLoading(false); // Stop loading when location changes
+    setLoading(false);
   }, [location, setLoading]);
 
   const toggleDrawer = (open) => (event) => {
