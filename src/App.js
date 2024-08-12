@@ -13,7 +13,7 @@ import Contact from "./components/Contact";
 import Events from "./components/Events";
 import Donate from "./components/Donate";
 import Loader from "./components/Loader";
-
+import Admin from "./components/Admin";
 const App = () => {
   const [loading, setLoading] = useState(false);
   const location = useLocation();
@@ -45,6 +45,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/events" element={<Events />} />
         <Route path="/donate" element={<Donate />} />
+        <Route path="/Admin" element={<Admin />} />
       </Routes>
       <Footer />
     </ThemeProvider>
