@@ -150,7 +150,7 @@ const Donate = () => {
           backgroundImage: "url(/buddha-1.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "30vh",
+          height: "60vh",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -159,7 +159,7 @@ const Donate = () => {
         <Box
           className="home-overlay"
           style={{
-            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            //   backgroundColor: "rgba(0, 0, 0, 0.5)",
             padding: "2rem",
             borderRadius: "8px",
             textAlign: "center",

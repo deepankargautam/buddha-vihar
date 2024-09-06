@@ -79,13 +79,14 @@ const Navbar = ({ setLoading }) => {
             to="/"
             sx={{ flexGrow: 1, color: "red", textDecoration: "none" }}
           >
-            TMFT
+
+            <img src="/tmft-high-resolution-logo-transparent.png" alt="Buddha" style={{ height: 40 }} />
           </Typography>
           {/* Centered Buddha Image */}
           <Box
-            sx={{ display: "flex", alignItems: "center", marginRight: "170px" }}
+            sx={{ display: "flex", alignItems: "center", marginRight: "120px" }}
           >
-            <img src="/buddha-1.png" alt="Buddha" style={{ height: 40 }} />
+            <img src="/b-1.png" alt="Buddha" style={{ height: 50, width: 50 }} />
           </Box>
           <Box sx={{ display: { xs: "none", md: "flex" }, gap: "1rem" }}>
             {menuItems.map((item) => (

@@ -14,6 +14,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import "./Home.css";
+import "./BuddhaAnimation.css"
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import DonateSection from "./DonateSection";
@@ -337,6 +338,41 @@ const Home = () => {
         </Container>
       </div>
 
+      <div
+        className="Buddhacontainer"
+        style={{ padding: isSmallScreen ? "1rem" : "2rem" }}
+      >
+        <Grid container spacing={4}>
+          <Grid item xs={12} md={12}>
+            <div className="one-div-container">
+              <div className="one-div">
+                <img src="b-1.png" alt="Centered Image" />
+              </div>
+            </div>
+          </Grid>
+          {/* <Grid item xs={12} md={4}>
+
+          </Grid>
+          <Grid item xs={12} md={4}>
+
+          </Grid> */}
+        </Grid>
+      </div>
+
+      {/* <div
+        className="donations-section"
+        style={{ padding: isSmallScreen ? "1rem" : "2rem" }}
+      >
+        <Container>
+          <Grid container spacing={4}>
+            <div className="one-div-container">
+              <div className="one-div">
+                <img src="b-1.png" alt="Centered Image" />
+              </div>
+            </div>
+          </Grid>
+        </Container>
+      </div> */}
       <div
         className="donations-section"
         style={{ padding: isSmallScreen ? "1rem" : "2rem" }}
