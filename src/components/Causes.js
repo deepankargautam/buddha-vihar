@@ -11,7 +11,7 @@ const Causes = () => {
           backgroundImage: "url(/buddha-1.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "30vh",
+          height: "60vh",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -20,7 +20,7 @@ const Causes = () => {
         <Box
           className="home-overlay"
           style={{
-            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            // backgroundColor: "rgba(0, 0, 0, 0.5)",
             padding: "2rem",
             borderRadius: "8px",
             textAlign: "center",
@@ -87,7 +87,11 @@ const Causes = () => {
             </Grid>
             <Grid item xs={12} md={4}>
               <div className="cause-card">
-                <img src="/cause-3.jpg" alt="Cause" className="cause-image" />
+                <img
+                  src="https://image.lexica.art/full_webp/d1c3cc3a-71aa-47c9-b4d8-75242cdefaae"
+                  alt="Cause"
+                  className="cause-image"
+                />
                 <div className="cause-content">
                   <Typography
                     variant="h6"
@@ -109,7 +113,11 @@ const Causes = () => {
             </Grid>
             <Grid item xs={12} md={4}>
               <div className="cause-card">
-                <img src="/cause-3.jpg" alt="Cause" className="cause-image" />
+                <img
+                  src="https://image.lexica.art/full_webp/ca639128-8eb2-454b-83ff-58f1f27363c9"
+                  alt="Cause"
+                  className="cause-image"
+                />
                 <div className="cause-content">
                   <Typography
                     variant="h6"
@@ -131,7 +139,11 @@ const Causes = () => {
             </Grid>
             <Grid item xs={12} md={4}>
               <div className="cause-card">
-                <img src="/cause-3.jpg" alt="Cause" className="cause-image" />
+                <img
+                  src="https://image.lexica.art/full_webp/0375b98a-0f8e-43d1-9647-3e3d02b0bc35"
+                  alt="Cause"
+                  className="cause-image"
+                />
                 <div className="cause-content">
                   <Typography
                     variant="h6"
@@ -154,7 +166,11 @@ const Causes = () => {
             </Grid>
             <Grid item xs={12} md={4}>
               <div className="cause-card">
-                <img src="/cause-3.jpg" alt="Cause" className="cause-image" />
+                <img
+                  src="https://image.lexica.art/full_webp/0adf8410-acc5-4a3d-a0e5-c1e7f59a8471"
+                  alt="Cause"
+                  className="cause-image"
+                />
                 <div className="cause-content">
                   <Typography
                     variant="h6"
@@ -175,7 +191,11 @@ const Causes = () => {
             </Grid>
             <Grid item xs={12} md={4}>
               <div className="cause-card">
-                <img src="/cause-3.jpg" alt="Cause" className="cause-image" />
+                <img
+                  src="https://image.lexica.art/full_webp/e4a5148a-4e2c-4751-8e4e-73de391d538f"
+                  alt="Cause"
+                  className="cause-image"
+                />
                 <div className="cause-content">
                   <Typography
                     variant="h6"
@@ -196,7 +216,11 @@ const Causes = () => {
             </Grid>
             <Grid item xs={12} md={4}>
               <div className="cause-card">
-                <img src="/cause-3.jpg" alt="Cause" className="cause-image" />
+                <img
+                  src="https://image.lexica.art/full_webp/6c338573-ae10-45b3-97c5-209a28de0666"
+                  alt="Cause"
+                  className="cause-image"
+                />
                 <div className="cause-content">
                   <Typography
                     variant="h6"
@@ -218,7 +242,11 @@ const Causes = () => {
             </Grid>
             <Grid item xs={12} md={4}>
               <div className="cause-card">
-                <img src="/cause-3.jpg" alt="Cause" className="cause-image" />
+                <img
+                  src="https://image.lexica.art/full_webp/5aff6358-b1f8-461d-b6e0-f13859dd256b"
+                  alt="Cause"
+                  className="cause-image"
+                />
                 <div className="cause-content">
                   <Typography
                     variant="h6"
@@ -241,7 +269,11 @@ const Causes = () => {
             </Grid>
             <Grid item xs={12} md={4}>
               <div className="cause-card">
-                <img src="/cause-3.jpg" alt="Cause" className="cause-image" />
+                <img
+                  src="https://image.lexica.art/full_webp/8fc7af33-d4f7-4ff8-8268-f4ecc7aa1d84"
+                  alt="Cause"
+                  className="cause-image"
+                />
                 <div className="cause-content">
                   <Typography
                     variant="h6"
@@ -262,7 +294,11 @@ const Causes = () => {
             </Grid>
             <Grid item xs={12} md={4}>
               <div className="cause-card">
-                <img src="/cause-3.jpg" alt="Cause" className="cause-image" />
+                <img
+                  src="https://image.lexica.art/full_webp/4c71ee42-cf40-4560-96df-fa8619f48941"
+                  alt="Cause"
+                  className="cause-image"
+                />
                 <div className="cause-content">
                   <Typography
                     variant="h6"

@@ -79,13 +79,34 @@ const Navbar = ({ setLoading }) => {
             to="/"
             sx={{ flexGrow: 1, color: "red", textDecoration: "none" }}
           >
-            TMFT
+            <img
+              src="/tmft-high-resolution-logo-transparent.png"
+              alt="Buddha"
+              style={{ height: 40 }}
+            />
           </Typography>
           {/* Centered Buddha Image */}
           <Box
-            sx={{ display: "flex", alignItems: "center", marginRight: "170px" }}
+            sx={{ display: "flex", alignItems: "center", marginRight: "120px" }}
           >
-            <img src="/buddha-1.png" alt="Buddha" style={{ height: 40 }} />
+            <div className="sun">
+              <div className="center"></div>
+              <div className="ray r-1"></div>
+              <div className="ray r-2"></div>
+              <div className="ray r-3"></div>
+              <div className="ray r-4"></div>
+              <div className="ray r-5"></div>
+              <div className="ray r-6"></div>
+              <div className="ray r-7"></div>
+              <div className="ray r-8"></div>
+            </div>
+            <Box className="buddha">
+              <img
+                src="/b-1.png"
+                alt="Buddha"
+                style={{ height: 50, width: 50 }}
+              />
+            </Box>
           </Box>
           <Box sx={{ display: { xs: "none", md: "flex" }, gap: "1rem" }}>
             {menuItems.map((item) => (
