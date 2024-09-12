@@ -14,7 +14,6 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import "./Home.css";
-import "./BuddhaAnimation.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import DonateSection from "./DonateSection";
