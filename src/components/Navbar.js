@@ -80,9 +80,9 @@ const Navbar = ({ setLoading }) => {
             sx={{ flexGrow: 1, color: "red", textDecoration: "none" }}
           >
             <img
-              src="/tmft-high-resolution-logo-transparent.png"
+              src="output-onlinepngtools.png"
               alt="Buddha"
-              style={{ height: 40 }}
+              style={{ height: 70, width: 120 }}
             />
           </Typography>
           {/* Centered Buddha Image */}
